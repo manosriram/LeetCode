@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-#include "basicTreeTemplate.h"
+#include "../basicTreeTemplate.h"
 using namespace std;
 vector<int> vector1;
 vector<int> vector2;
