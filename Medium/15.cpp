@@ -23,12 +23,7 @@ vector<vector<int>> threeSum(vector<int> nums) {
                     temp.push_back(diff);
                     tmp = temp;
                     sort(tmp.begin(), tmp.end());
-                    if (!srt[tmp]) {
-                        res.push_back(temp);
-                        temp.clear();
-                        srt[tmp] = true;
-                    }
-                }
+                    if (!srt[tmp]) { res.push_back(temp); temp.clear(); srt[tmp] = true; } }
                 temp.clear();
                 tmp.clear();
                 ++mm[nums[t]], ++mm[nums[tt]];
