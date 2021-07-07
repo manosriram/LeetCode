@@ -24,7 +24,7 @@ public:
             
             if (temp->left) q2.push(temp->left);
             if (temp->right) q2.push(temp->right);
-            
+
             if (q.empty()) {
                 vector<int> re;
                 while (!q2.empty()) {
